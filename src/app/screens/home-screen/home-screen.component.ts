@@ -22,7 +22,7 @@ export class HomeScreenComponent implements OnInit {
   
   constructor(
     private router: Router,
-    private fb: FormBuilder,
+    private fb: FormBuilder
   ) { }
 
   ngOnInit(): void {
@@ -85,7 +85,7 @@ export class HomeScreenComponent implements OnInit {
   }
 
   public registrarCodigo(){
-
+    
   }
 
   public isMobile(tipo: number){

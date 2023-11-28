@@ -23,7 +23,7 @@ export class LeftSidebarComponent implements OnInit {
   }
 
   public iniciarSesion(){
-
+    this.router.navigate(["login"]);
   }
 
   public goInicio(){

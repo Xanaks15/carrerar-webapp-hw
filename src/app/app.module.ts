@@ -23,7 +23,14 @@ import { HeaderAppComponent } from './partials/header-app/header-app.component';
 import { LeftSidebarComponent } from './partials/left-sidebar/left-sidebar.component';
 import { FooterAppComponent } from './partials/footer-app/footer-app.component';
 import { BasesPromocionScreenComponent } from './screens/bases-promocion-screen/bases-promocion-screen.component';
-//import { BasesPromocionScreenComponent } from './screens/bases-promocion-screen/bases-promocion-screen.component';
+import { JuegoTerminadoScreenComponent } from './screens/juego-terminado-screen/juego-terminado-screen.component';
+import { InstruccionesScreenComponent } from './screens/instrucciones-screen/instrucciones-screen.component';
+import { NuevoLookScreenComponent } from './screens/nuevo-look-screen/nuevo-look-screen.component';
+import { TerminosycondicionesScreenComponent } from './screens/terminosycondiciones-screen/terminosycondiciones-screen.component';
+import { PoliticasScreenComponent } from './screens/politicas-screen/politicas-screen.component';
+import { JugandoScreenComponent } from './screens/jugando-screen/jugando-screen.component';
+import { PerfilScreenComponent } from './screens/perfil-screen/perfil-screen.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +41,13 @@ import { BasesPromocionScreenComponent } from './screens/bases-promocion-screen/
     LeftSidebarComponent,
     FooterAppComponent,
     BasesPromocionScreenComponent,
-    //BasesPromocionScreenComponent
+    JuegoTerminadoScreenComponent,
+    InstruccionesScreenComponent,
+    NuevoLookScreenComponent,
+    TerminosycondicionesScreenComponent,
+    PoliticasScreenComponent,
+    JugandoScreenComponent,
+    PerfilScreenComponent
   ],
   imports: [
     BrowserModule,
